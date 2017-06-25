@@ -1,0 +1,854 @@
+body {
+	background-color: #000;
+	font-family: Times;
+	font-size: 30.48px;
+	text-align: left;
+}
+
+@media (min-width: 1250px) {
+	.container {
+		width: 1220px;
+	}
+}
+
+::-webkit-input-placeholder {
+   color: #fff;
+}
+
+:-moz-placeholder {
+  color: #fff;
+}
+
+::-moz-placeholder {
+   color: #fff;  
+}
+
+:-ms-input-placeholder {  
+   color: #fff;
+}
+
+:focus {
+	outline: none;
+}
+
+h2 {
+	color: #8e7a5e;
+	font-size: 60px;
+	font-style: italic;
+	margin-top: 0;
+    margin-bottom: 0;
+	text-align: left;
+	line-height: 74px;
+}
+
+p {
+	text-align: left;
+}
+
+.navbar-fixed-top {
+	background-color: rgba(0,0,0,0.8);
+	min-height: 95px;
+}
+
+/* Lightbox */
+
+.lightbox {
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(19,17,17,0.9);
+    z-index: 10;
+    left: 0;
+    top: 0;
+}
+
+.lightbox .idade {
+	margin: 147px auto 0;
+	display: block;
+	text-align: center;
+	max-width: 389px;
+}
+
+.lightbox .idade h2 {
+    font-size: 35px;
+    color: #8f7b5d;
+    text-align: center;
+    line-height: 41px;
+}
+
+.lightbox .idade p {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.lightbox .idade .erro {
+	display: none;
+}
+
+.lightbox .idade .botoes {
+	margin-top: 61px;
+}
+.lightbox .idade .botoes a {
+	width: 115px;
+	text-align: center;
+	background-color: #820001;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	display: block;
+	color: #fff;
+	line-height: 58px;
+}
+
+.lightbox .idade .botoes a:hover {
+	text-decoration: none;
+}
+
+.lightbox .idade .botoes a.sim {
+	float: left;
+}
+.lightbox .idade .botoes a.nao {
+	float: right;
+}
+
+@media (max-width: 680px) {
+	.lightbox .idade {
+		margin: 147px auto 0;
+		max-width: 100%;
+	}
+
+	.lightbox .idade h2 {
+		font-size: 29px;
+		line-height: 41px;
+	}
+
+	.lightbox .idade p {
+		font-size: 21px;
+		margin-top: 30px;
+	}
+	.lightbox .idade .botoes a {
+		width: 95px;
+		font-size: 15px;
+		line-height: 48px;
+	}
+	.lightbox .idade .botoes {
+		max-width: 320px;
+		margin: 60px auto 0;
+	}
+}
+
+/* Header */
+
+header {
+	position: relative;
+	z-index: 9;
+}
+
+.navbar-brand {
+	width: 61px;
+	height: 49px;
+	padding: 0;
+	margin-top: 25px;
+}
+
+.navbar-nav > li > a {
+	font-size: 14px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+	color: #8e7a5e;
+	background: none;
+}
+
+.navbar-fixed-top .navbar-collapse {
+    margin-top: 20px;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: #fff;
+	height: 3px;
+}
+
+.navbar-toggle {
+	background-color: #8f7b5d;
+}
+
+.navbar-toggle {
+	margin-top: 14px;
+}
+
+@media (max-width: 767px) { 
+	.navbar-collapse {
+		background-color: #8f7b5d;
+		text-align: center;
+	}
+	header .container {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.navbar-brand {
+		margin-top: 9px;
+    	margin-left: 10px;
+	}
+	.navbar-nav > li > a {
+		border-bottom: #8e7a5e 1px solid;
+		display: inline-block;
+	}
+	.nav>li>a:focus, .nav>li>a:hover {
+		color: #fff;
+		border-bottom: #fff 1px solid;
+	}
+}
+
+/* Foto */
+
+.foto {
+	margin-top: 150px;
+}
+
+@media (max-width: 680px) {
+	.foto {
+   		margin-top: 95px;
+	}
+}
+
+/* O Jogo */
+
+.jogo a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.jogo p {
+    margin-top: 41px;
+    max-width: 900px;
+    line-height: 36px;
+	color: #ffffff;
+	text-shadow: #000 2px 2px 1px;
+}
+
+@media (min-width: 681px) {
+	.jogo {
+		background: url(../images/jogo.jpg) center top no-repeat;
+		padding-bottom: 368px;
+		padding-top: 75px;
+	}
+}
+@media (max-width: 680px) {
+	.jogo {
+		background: url(../images/jogo-mobile.jpg) center top no-repeat;
+		padding-bottom: 406px;
+		padding-top: 28px;
+	}
+	.jogo h2 {
+		font-size: 26px;
+		line-height: 30px;
+		padding-left: 10px;
+	}
+	.jogo p {
+		margin-top: -27px;
+		max-width: 549px;
+		line-height: 24px;
+		color: #ffffff;
+		font-size: 18px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+
+/* Lenda */
+
+.lenda {
+	background: url(../images/lenda.jpg) center top no-repeat;
+	background-size: cover;
+	padding-top: 77px;
+	padding-bottom: 216px;
+}
+
+.lenda p {
+    margin-top: 16px;
+    max-width: 549px;
+    line-height: 37px;
+    color: #ffffff;
+    margin-bottom: 34px;
+	text-shadow: #000 2px 2px 1px;
+}
+.lenda h2 {
+    font-size: 65px;
+    text-align: left;
+    line-height: 74px;
+}
+.lenda .text {
+    margin-right: 141px;
+    margin-top: 39px;
+}
+
+@media (max-width: 680px) {
+	.lenda {
+		background: url(../images/lenda.jpg) right top no-repeat;
+		background-size: cover;
+		padding-bottom: 90px;
+		padding-top: 35px;
+	}
+	.lenda h2 {
+		font-size: 26px;
+		line-height: 30px;
+		padding-left: 10px;
+	}
+	.lenda p {
+		margin-top: -27px;
+		max-width: 549px;
+		line-height: 24px;
+		color: #ffffff;
+		font-size: 18px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.lenda .text {
+		margin-right: 0;
+	}
+}
+
+/* Agenda */
+
+.agenda {
+	background: url(../images/agenda.jpg) center top no-repeat;
+	background-size: cover;
+    padding-top: 58px;
+	padding-bottom: 86px;
+}
+
+.agenda p {
+	font-size: 40.64px;
+    margin-top: 29px;
+    line-height: 48px;
+    color: #ffffff;
+    margin-bottom: 34px;
+    text-align: center;
+}
+.agenda h3 {
+    font-size: 62.94px;
+	font-style: italic;
+	color: #ffffff;
+}
+.agenda p.alert {
+    font-size: 23px;
+    margin: 10px 0 0;
+    line-height: 26px;
+}
+
+.agenda .highlighted a{
+   background: url(images/agenda-select.jpg);
+   color: #fff;
+   font-weight:bold;
+   text-shadow: 1px 3px 0px #60606a;
+   cursor: pointer;
+}
+
+.agenda .loading {
+	max-width: 21px;
+    margin: 0 auto;
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -10px;
+}
+
+div#datepicker {
+    margin: 47px auto 55px;
+    display: inline-block;
+}
+.ui-datepicker-inline.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
+    padding: 0;
+    border-radius: 0;
+    border: none;
+	width: 100%;
+}
+.ui-datepicker .ui-datepicker-header {
+    position: relative;
+    padding: .2em 0;
+    background: #750909;
+    color: #fff;
+	border: none;
+	border-radius: 0;
+}
+.ui-tooltip, .arrow:after {
+    background: rgba(255,255,255,0.8);
+	box-shadow: none;
+	border: none;
+	
+  }
+  .ui-tooltip {
+    padding: 10px 20px;
+    color: #1c0909;
+	font-family: 'Open Sans', sans-serif;
+	border: none;
+	margin-top: -29px;
+  }
+.ui-widget.ui-widget-content {
+	border: none;
+}
+.ui-widget.ui-widget-content h4 {
+	font-size: 22px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+}
+.ui-widget.ui-widget-content p {
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 10px 0 0;
+	padding: 0;
+}
+  .arrow {
+	width: 161px;
+    height: 31px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -42px;
+    bottom: -31px;
+  }
+  .arrow.top {
+    top: -16px;
+    bottom: auto;
+  }
+  .arrow.left {
+    left: 20%;
+  }
+  .arrow:after {
+    content: "";
+    position: absolute;
+    left: 14px;
+    top: -32px;
+    width: 47px;
+    height: 37px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .arrow.top:after {
+    bottom: -20px;
+    top: auto;
+  }
+.ui-datepicker-calendar th {
+    background-color: #991017;
+    color: #fff;
+	font-size: 19px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-shadow: 0px 1px 0px rgba(10, 97, 39, .5);
+	padding: 0.79em .3em;
+}
+.ui-datepicker td {
+	padding: 0;
+}
+.ui-state-default, .ui-widget-content .ui-state-default {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: #2e2e2e;
+    background: #e3e3e3;
+    width: 74px;
+    line-height: 62px;
+	border: 1px solid #c5c5c5;
+	cursor: default;
+	
+}
+.ui-datepicker table {
+	margin: 0;
+}
+.ui-datepicker .ui-datepicker-title {
+	text-transform: uppercase;
+	text-shadow: 0px 1px 0px rgba(10, 97, 39, 0.25);
+}
+.ui-widget-header .ui-datepicker-next  .ui-icon {
+	background: url(../images/seta-right.png) no-repeat;
+	width: 20px;
+	height: 29px;
+	margin-top: -13px;
+}
+.ui-datepicker .ui-datepicker-next {
+    top: 0;
+    border-left: #670708 2px solid;
+    height: 66px;
+    border-radius: 0;
+    width: 74px;
+	cursor: pointer;
+}
+.ui-datepicker .ui-datepicker-next-hover {
+	background: none;
+	border: none;
+	border-left: #670708 2px solid;
+	right: 2px;
+}
+.ui-datepicker .ui-datepicker-prev {
+    top: 0;
+    border-right: #670708 2px solid;
+    height: 66px;
+    border-radius: 0;
+    width: 74px;
+	cursor: pointer;
+}
+.ui-datepicker .ui-datepicker-prev-hover {
+	background: none;
+	border: none;
+	border-right: #670708 2px solid;
+	left: 2px;
+}
+.ui-widget-header .ui-datepicker-prev .ui-icon {
+	background: url(../images/seta-left.png) no-repeat;
+	width: 20px;
+	height: 29px;
+	margin-top: -13px;
+}
+.data-select {
+	width: 520px;
+	background-color: #dd3332;
+	border-radius: 7px;
+	box-shadow: 0px 1px 10px 0.00px rgba(0, 0, 0, 0.75);
+	margin: 0 auto;
+	position: relative;
+	z-index: 2;
+}
+.data-select .data {
+	color: #ffffff;
+	font-family: 'Arial';
+	font-size: 35px;
+	font-weight: 700;
+	text-shadow: 0px 1px 0px #60606a;
+	display: inline-block;
+	width: 70px;
+	text-align: center;
+	border-right: #fb6160 1px solid;
+	line-height: 77px;
+}
+.data-select .titulo {
+	font-size: 35px;
+	font-weight: 700;
+	font-family: 'Arial';
+	color: #ffffff;
+	text-shadow: 0px 1px 0px #60606a;
+	display: inline-block;
+	text-align: center;
+    width: 436px;
+	line-height: 77px;
+}
+
+.horarios {
+	width: 520px;
+	background-color: #dd3332;
+	box-shadow: 0px 1px 10px 0.00px rgba(0, 0, 0, 0.75);
+	border-radius: 7px;
+    margin: -10px auto 0;
+	position: relative;
+	padding-top: 15px;
+}
+.horarios ul {
+	margin: 0;
+    padding: 0;
+    height: 257px;
+    overflow-y: auto;
+}
+.horarios ul li {
+    width: 100%;
+    display: block;
+    border-top: #fb6160 1px solid;
+}
+.horarios ul li a {
+	display: block;
+	width: 100%; height: 100%;
+	padding: 23px 10px 19px 28px;
+    text-align: left;
+    text-decoration: none;
+}
+.horarios ul li.on {
+    background-color: #8d1615;
+}
+.horarios ul li:first-child {
+	border: none;
+}
+
+
+
+
+.horarios .titulo {
+	font-size: 30px;
+    font-weight: 400;
+    font-family: 'Arial';
+    color: #ffffff;
+    display: block;
+    line-height: 15px;
+    display: inline-block;
+}
+.horarios .hora {
+	font-family: 'Arial';
+    color: #e8d712;
+    font-size: 30px;
+    display: inline-block;
+}
+
+@media (max-width: 680px) {
+	.agenda h3 {
+		font-size: 26px;
+	}
+	.agenda p {
+		font-size: 20px;
+		line-height: 24px;
+	}
+}
+@media (max-width: 600px) {
+	.agenda {
+		padding-top: 5px;
+	}
+	.ui-state-default, .ui-widget-content .ui-state-default {
+    	width: 40px;
+    	line-height: 30px;
+	}
+	.ui-datepicker-calendar th {
+		font-size: 13px;
+	}
+	.ui-datepicker .ui-datepicker-title {
+		font-size: 18px;
+	}
+	.ui-datepicker .ui-datepicker-next {
+		height: 43px;
+		width: 57px;
+	}
+	.ui-datepicker .ui-datepicker-prev {
+		height: 43px;
+		width: 57px;
+	}
+	.data-select {
+    	width: 100%;
+	}
+	.data-select .data {		
+		font-size: 26px;
+		width: 18%;
+		line-height: 66px;
+	}
+	.data-select .titulo {
+		font-size: 20px;
+		width: 75%;
+		line-height: 66px;
+	}
+}
+
+/* Cadastro */
+
+#cadastro {
+	width: 517px;
+	display: block;
+	margin: 48px auto 0;
+}
+
+#cadastro input {
+	width: 100%;
+	height: 72px;
+	background-color: rgba(255, 255, 255, 0.23);
+	border: none;
+	border-radius: 4px;
+	color: #ffffff;
+	font-size: 24px;
+	font-family: 'Arial';
+	margin-bottom: 16px;
+	padding: 0 25px;
+}
+#cadastro input[type="submit"] {
+	background-color: #dd3332;
+	border-radius: 3px;
+	box-shadow: 0px 1px 10px 0.00px rgba(0, 0, 0, 0.75);
+	color: #e8d612;
+	font-size: 25px;
+	font-family: 'Arial';
+	height: 57px;
+	margin-top: 16px;
+	padding: 0;
+}
+.horarios ::-webkit-scrollbar {
+    width: 18px;
+}
+ 
+.horarios ::-webkit-scrollbar-track {
+	background-color: #a9201f;
+	
+}
+ 
+.horarios ::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+	background-color: #e8d712;
+}
+
+@media (max-width: 680px) {
+	#cadastro {
+		width: 100%;
+	}
+	#cadastro input {	
+		height: 46px;
+		margin-bottom: 9px;
+		padding: 0 12px;
+		font-size: 16px;
+	}
+	#cadastro input[type="submit"] {
+		font-size: 16px;
+		height: 35px;
+	}
+	.horarios {
+     	width: 100%;
+	}
+	.horarios ul {
+		height: 206px;
+	}
+	.horarios ul li {
+		padding-left: 11px;
+		padding-bottom: 13px;
+	}
+	.horarios .titulo {
+		font-size: 16px;
+    	display: inline-block;
+	}
+	.horarios .hora {
+		font-size: 18px;
+    	display: inline-block;
+	}
+	.horarios ul li a {
+	    padding: 6px 0;
+	}
+}
+
+/* Onde */
+
+.onde {
+	background: url(../images/onde.jpg) left top no-repeat;
+	background-size: cover;
+    padding-top: 58px;
+	padding-bottom: 86px;
+}
+
+.onde p {
+    font-size: 31.64px;
+    margin-top: 29px;
+    line-height: 38px;
+    color: #ffffff;
+    margin-bottom: 34px;
+    text-align: left;
+}
+.onde p span {
+	color: #8e7a5e;
+}
+.onde h3 {
+    font-size: 62px;
+    font-style: italic;
+    margin-top: 253px;
+    color: #8e7a61;
+}
+
+.onde a {
+    color: #b09c65;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 174px;
+    position: relative;
+    padding-left: 63px;
+	display: inline-block;
+	margin-right: 8%;	
+}
+.onde a , .onde a:hover {
+	text-decoration: none;
+}
+.onde a:before {
+	font-size: 59px;
+    top: -16px;
+    position: absolute;
+    left: 0;
+}
+
+
+@media (max-width: 1200px) {
+	.onde a {
+		width: 100%;
+		margin-right: 0;
+		margin-top: 55px;
+	}
+}
+
+@media (max-width: 600px) {
+	.onde a {
+		font-size: 23px;
+		padding-left: 50px;
+		margin-top: 25px;
+	}
+	.onde h3 {
+    	font-size: 26px;
+		margin-top: 11px;
+	}
+	.onde p {
+    	font-size: 16px;
+    	line-height: 24px;
+	}
+	.onde a:before {
+		font-size: 44px;
+		top: -12px;
+	}
+}
+
+/* Footer */
+footer {
+	width: 100%;
+	background-color: #9b1c1b;
+	height: 194px;
+	position: relative;
+}
+
+footer p {
+	font-size: 24.77px;
+	color: rgba(255, 255, 255, 0.8);
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 88px;
+	max-width: 80%;
+}
+footer img {
+	float: right;
+	margin-top: 45px;
+}
+
+@media (max-width: 1999px) {
+	footer p {
+		font-size: 14px;
+		padding-left: 10px;
+	}
+	footer img {
+		padding-right: 10px;
+	}
+}
+
+@media (max-width: 680px) {
+	footer img {
+		float: none;
+		margin: 32px auto;
+		display: block;
+	}
+	footer p {
+		left: 0;
+    	text-align: center;
+		width: 100%;
+		font-size: 14.77px;
+		bottom: 0;
+		margin-top: 0;
+		position: absolute;
+		max-width: 100%;
+	}
+}
+
+/* Ranking */
+
+.ranking {
+	background: url(../images/ranking.jpg) right top;
+}
